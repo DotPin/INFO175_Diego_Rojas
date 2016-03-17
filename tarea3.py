@@ -1,6 +1,11 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
+
+#Ingresa una palabra por cada enter que presione infinitamente, hasta que registra un blanco
+#mostrando la palabra compuesta por cada ingreso en orden
+
+
 def interlinea():
   bol = True
   a = []
@@ -15,3 +20,7 @@ def interlinea():
 
 if __name__ == "__main__":
   print ("Palabra obtenida: ",interlinea())
+
+
+#Creado por hackerter
+#Máquina EVA01

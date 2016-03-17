@@ -1,3 +1,3 @@
 # INFO175_Diego_Rojas
-Carpeta de taller, con tareas en clase a desarrollar.
+17 - 03 -2016: Carpeta de taller, con tareas en clase a desarrollar.
 

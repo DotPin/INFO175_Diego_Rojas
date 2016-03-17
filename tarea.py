@@ -20,3 +20,7 @@ if __name__ == "__main__":
 	x = input("Ingrese primer numero entero: ")
 	y = input("Ingrese segundo numero entero: ")
 	print ("Resultado "+ comparar(x,y))
+
+#Creado por hackerter  
+#Máquina EVA01
+
