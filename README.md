@@ -2,3 +2,4 @@
 carpeta de taller
 
 tarea python 1, falta errores de sintaxis
+tarea python 1, terminada.
