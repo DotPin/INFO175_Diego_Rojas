@@ -1,5 +1,3 @@
 # INFO175_Diego_Rojas
-carpeta de taller
+Carpeta de taller, con tareas en clase a desarrollar.
 
-tarea python 1, falta errores de sintaxis
-tarea python 1, terminada.
