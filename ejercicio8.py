@@ -23,3 +23,8 @@ if __name__ == "__main__":
   palabra = raw_input("Ingrese la palabra que desea encriptar: ")
   saltos = input("Inrgese el numero de saltos: ")
   print("Palabra encriptada",encrypt(palabra,saltos))
+  
+  
+
+#Creado por Hackerter
+#Diego Rojas Asenjo
