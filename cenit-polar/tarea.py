@@ -2,6 +2,9 @@
 # -*- coding: utf-8 -*-
 
 
+#Tarea de codificación con interfaz gráfica llamada Cenit-Polar, en la que solicita palabra por medio de un TextBox
+#despues escoge mediante CheckButton opcion a codificar y realiza el trabajo dependiendo de lo que quiere.
+
 from Tkinter import *
 import string
 
@@ -11,7 +14,7 @@ class apl(Tk):
       Tk.__init__(self,parent)
       self.parent = parent
       self.iniciar()
-      
+#DR     
     def iniciar(self):
       self.title("Encriptador")
       
@@ -37,7 +40,7 @@ class apl(Tk):
       
       resultado = StringVar()
       resultado = (" Texto resultante ")
-      
+#IO      
       def cenit(frase): 			#metodo de encriptación cenit-polar
 	tx = "cenit"
 	tx2 = "polar"
@@ -57,7 +60,7 @@ class apl(Tk):
 	  elif texto == "r": final+=tx[4]
 	  else: final += texto
 	rst2.config(text=final)
-	
+#EJ
       def cesar(frase, jump):	#método encriptación cesar con parámetro word = palabra enviada, jump = numero de saltos
 	try: 
 	  if jump < 0 :
@@ -83,7 +86,7 @@ class apl(Tk):
       
       opcion = Label(self, text="Seleccione el tipo de encriptación:")
       opcion.place(x=20, y=310)
-      
+#GA      
       def validador():			#activador y desactivador de eventos botones y cuadros de texto
 	c1.config(state=DISABLED)
 	c2.config(state=DISABLED)
@@ -117,7 +120,7 @@ class apl(Tk):
       
       bencriptar = Button(self, text="Encriptar", command=encriptacion)			#comando que realiza acción de encriptación
       bencriptar.place(x = 350, y = 625, width=120 , height= 50)
-      
+#OS      
       def salir():
 	self.quit()
       
@@ -134,8 +137,8 @@ if __name__ == "__main__":
   
   
   
-  
-  
+#Trabajo Realizado por Hackerter
+#Diego Rojas Asenjo
   
   
   
