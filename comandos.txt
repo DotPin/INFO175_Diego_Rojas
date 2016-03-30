@@ -3,3 +3,15 @@ Para renombrar archivos en git lo puedes hacer con el comando:
 
 Guardar cambios de directorios modificados "renombrados":
 *git commit --dry-run -a
+
+***Si quieres eliminar un archivo:
+**git rm miarchivo.php
+*
+***Si quieres eliminar una carpeta:
+**git rm -r micarpeta
+*
+***Creamos el commit
+**git commit -m "elimino archivos innecesarios"
+*
+***Subimos los cambios al repositorio
+**git push
