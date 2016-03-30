@@ -1,0 +1,5 @@
+Para renombrar archivos en git lo puedes hacer con el comando:
+*git mv original nuevo
+
+Guardar cambios de directorios modificados "renombrados":
+*git commit --dry-run -a
