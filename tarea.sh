@@ -15,11 +15,11 @@ if [ -e "$1" ]
   chmod 777 "$2"
   cp -r "$1/*" "$2"
   cd "$2"
-  f=`date +%d-%m-%Y`
+  f=`date +%d_%m_%Y`
   full_path=$2
   file_name="${full_path##*/}"
   name="${file_name%.*}"
-  tar cvf "$f$name.tar" "$1"
+  tar cvf "$f"_"$name.tar" "$1"
   echo "Copia Finalizada."
  else
   echo "Ruta de origen no válida"
